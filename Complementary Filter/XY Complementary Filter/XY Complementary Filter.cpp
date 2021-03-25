@@ -75,7 +75,7 @@ void loop()
     {
         p_next = t + P_OUT;
 
-        Serial.println(angle_gx);
+        Serial.print(angle_gx); Serial.print("\t");
         Serial.println(angle_gy);
     }
 }
